@@ -1,2 +1,6 @@
 RelacionesDatos/node_modules
 RelacionesDatos/package-lock.json
+
+GraphQLMongo/node_modules
+GraphQLMongo/package-lock.json
+GraphQLMongo/.babelrc
