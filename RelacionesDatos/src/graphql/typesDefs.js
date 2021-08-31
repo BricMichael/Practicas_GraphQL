@@ -3,15 +3,19 @@ const typeDefs = `
         saludo: String!
         libros: [Book!]!
         autores: [Autor!]!
+        resenias: [Resenia!]!
     }
 
-
-
+    type Resenia {
+        resenia: String!
+        idBook: Book!
+    }
 
     type Book {
         id: ID!
         title: String!
         id_author: Autor!
+        review: Resenia!
     }
 
     type Autor {
